@@ -4,7 +4,6 @@ const App = () => {
   return (
     <div>
       <Navbar />
-      <h1>Apexwallet</h1>
     </div>
   );
 }
