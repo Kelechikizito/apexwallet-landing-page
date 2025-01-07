@@ -11,8 +11,8 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-red-500 p-4">
-      <div className="container flex flex-col md:flex-row justify-between">
+    <nav className="bg-[#0A0D10] py-4 px-4 text-white">
+      <div className="container flex flex-col md:grid md:grid-cols-2 justify-between">
         <div className='flex justify-between'>
             <a href="#"><Logo/></a>
             
