@@ -1,10 +1,11 @@
 import { motion } from 'framer-motion';
+import PropTypes from 'prop-types';
 
 const PartnersSection = ({ images }) => {
   const imagesArr = [...images, ...images];
 
   return (
-    <div className="h-[200px] relative overflow-hidden mx-auto max-w-screen-lg mt-24">
+    <div className="h-[200px] relative overflow-hidden mx-auto max-w-screen-lg mt-32">
       <motion.div 
         className="flex gap-14" 
         animate={{
@@ -30,6 +31,15 @@ const PartnersSection = ({ images }) => {
       </motion.div>
     </div>
   );
+};
+
+PartnersSection.propTypes = {
+  images: PropTypes.arrayOf(
+    PropTypes.shape({
+      logo: PropTypes.string.isRequired,
+      name: PropTypes.string.isRequired,
+    })
+  ).isRequired,
 };
 
 export default PartnersSection;
