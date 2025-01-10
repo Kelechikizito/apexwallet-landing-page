@@ -33,10 +33,7 @@ const FeaturesSection = () => {
       </div>
 
       <div>
-        <FeaturesCard 
-        cardTitle="All Major Tokens +"
-        cardDetails="Explore the Range of Supported Digital Currencies for Seamless Transactions"
-        />
+        <FeaturesCard />
       </div>
     </div>
   );
