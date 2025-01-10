@@ -1,10 +1,12 @@
 import spanPill from "../assets/span-pill/Variant-1.png";
 import squareBackground from "../assets/backgrounds/Squares-Background.png";
+import rightContentBackground from "../assets/backgrounds/RightContent-Screen.png";
+
 import FeaturesCard from "./FeaturesCard";
 
 const FeaturesSection = () => {
   return (
-    <div className="mt-24 mx-8 flex flex-col gap-8">
+    <div className="mt-24 flex flex-col gap-8">
       <div
         className="flex flex-col items-center justify-center text-center gap-12 py-8"
         style={{
@@ -32,7 +34,18 @@ const FeaturesSection = () => {
         </div>
       </div>
 
-      <div>
+      <div
+        style={{
+          backgroundImage: `url(${rightContentBackground})`,
+          overflow: "hidden",
+          backgroundSize: "cover",
+          backgroundBlendMode: "normal",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: 'center'
+        }}
+
+        // className="px-8"
+      >
         <FeaturesCard />
       </div>
     </div>
