@@ -1,5 +1,6 @@
 import spanPill from "../assets/span-pill/Variant-1.png";
 import squareBackground from "../assets/backgrounds/Squares-Background.png";
+import FeaturesCard from "./FeaturesCard";
 
 const FeaturesSection = () => {
   return (
@@ -32,7 +33,10 @@ const FeaturesSection = () => {
       </div>
 
       <div>
-        I am going to be a billionaire, a millionaire in the next six months
+        <FeaturesCard 
+        cardTitle="All Major Tokens +"
+        cardDetails="Explore the Range of Supported Digital Currencies for Seamless Transactions"
+        />
       </div>
     </div>
   );
