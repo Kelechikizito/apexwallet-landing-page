@@ -8,7 +8,8 @@ import opera from '../assets/browsers/Opera.png';
 const FeaturesCard = () => {
   return (
     <div className="flex flex-col gap-6 mx-8">
-      <div className="bg-[#0A0D10] flex flex-col gap-6 p-6">
+      <div className="bg-[#0A0D10] flex flex-col gap-6 p-6 rounded-2xl"
+      style={{backgroundImage: `url(${squareBackground})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'left top', backgroundSize: '30%'}}>
         <div>
           <motion.div
             className="flex gap-14"
@@ -45,7 +46,7 @@ const FeaturesCard = () => {
       </div>
 
       <div className="bg-[#0A0D10] flex flex-col gap-6 p-6 rounded-2xl"
-      style={{backgroundImage: `url(${squareBackground})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'left top'}}
+      style={{backgroundImage: `url(${squareBackground})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'left top', backgroundSize: '30%'}}
       >
         <div 
         className="flex flex-col"
@@ -63,7 +64,8 @@ const FeaturesCard = () => {
         </div>
       </div>
 
-      <div className="bg-[#0A0D10] flex flex-col gap-6 p-6">
+      <div className="bg-[#0A0D10] flex flex-col gap-6 p-6 rounded-2xl"
+      style={{backgroundImage: `url(${squareBackground})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'left top', backgroundSize: '30%'}}>
         <div></div>
 
         <div className="text-white">
@@ -74,7 +76,8 @@ const FeaturesCard = () => {
         </div>
       </div>
 
-      <div className="bg-[#0A0D10] flex flex-col gap-6 p-6">
+      <div className="bg-[#0A0D10] flex flex-col gap-6 p-6 rounded-2xl"
+      style={{backgroundImage: `url(${squareBackground})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'left top', backgroundSize: '30%'}}>
         <div></div>
 
         <div className="text-white">
@@ -86,7 +89,8 @@ const FeaturesCard = () => {
         </div>
       </div>
 
-      <div className="bg-[#0A0D10] flex flex-col gap-6 p-6">
+      <div className="bg-[#0A0D10] flex flex-col gap-6 p-6 rounded-2xl"
+      style={{backgroundImage: `url(${squareBackground})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'left top', backgroundSize: '30%'}}>
         <div></div>
 
         <div className="text-white">
