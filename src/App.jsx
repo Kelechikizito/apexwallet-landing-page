@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import PartnersSection from "./components/PartnersSection";
 import FeaturesSection from "./components/FeaturesSection";
+import TeamSection from "./components/TeamSection";
 import partners from "./data/partner";
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
       <HeroSection />
       <PartnersSection images={partners}/>
       <FeaturesSection />
+      <TeamSection />
     </div>
   );
 }
